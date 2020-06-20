@@ -30,6 +30,7 @@ class Option
      */
     private $properties;
 
+
     public function __construct()
     {
         $this->properties = new ArrayCollection();
@@ -77,4 +78,6 @@ class Option
 
         return $this;
     }
+
+   
 }
